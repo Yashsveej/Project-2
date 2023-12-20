@@ -25,7 +25,7 @@ jobs:
       - name: Push Docker image to Docker Hub
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
-          image: yashsveejain5367/project_image
+          image: yashsveejain5367/project_images
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
